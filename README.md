@@ -13,3 +13,8 @@ This is an dotnet app template with seperation between the messages arrived from
   * **General** - contains a classes for general use.
   * **Interfaces** - contains a interfaces that represent the application abstraction.
   * **Models** - contains a classes that represent data transfare object and views reflaction.
+
+
+<br /><br />
+## Application Diagram
+![Application Diagram](/app-diagram.png)
