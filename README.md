@@ -1,7 +1,7 @@
 # Separate your app with logical tires
 This is a dotnet app template with separation between the messages arrived from outside into application logic processing.
 
-### Application Folder Structure
+### Application Folder
 * **Web** - represent the presentation tier, contains the landing page and web apps navigations: "Home", "Privacy" and "Weather Forecast".
   * **Pages** - contains the UI pages.
 * **Api** - responsible for incoming HTTP messages.
