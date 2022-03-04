@@ -1,18 +1,18 @@
 # Separate your app with logical tires
-This is an dotnet app template with seperation between the messages arrived from outside into application logic processing.
+This is a dotnet app template with separation between the messages arrived from outside into application logic processing.
 
 * **Web** - represent the presentation tier, contains the landing page and web apps navigations: "Home", "Privacy" and "Weather Forecast".
   * **Pages** - contains the UI pages.
-* **Api** - reponsible to incoming HTTP messages.
+* **Api** - responsible for incoming HTTP messages.
   * **Controllers** - contains the RESTFul API's.
 * **Services** - represent the transformation tier where incoming messages represented by ViewModels transform to Entities and vice versa.
 * **Data** - contains the DB context and repository.
-* **Domain** - contains the "domain" app, wich is the abstraction of the app.
-  * **Entities** - contains a classes that reflects the DB schemas.
+* **Domain** - contains the "domain" app, which is the abstraction of the app.
+  * **Entities** - contains classes that reflect the DB schemas.
   * **Enums** - contains the application types.
-  * **General** - contains a classes for general use.
-  * **Interfaces** - contains a interfaces that represent the application abstraction.
-  * **Models** - contains a classes that represent data transfare object and views reflaction.
+  * **General** - contains classes for general use.
+  * **Interfaces** - contains interfaces that represent the application abstraction.
+  * **Models** - contains classes that represent data transfer object and views reflection.
 
 ## Application Diagram
 ![Application Diagram](/app-diagram.png)
