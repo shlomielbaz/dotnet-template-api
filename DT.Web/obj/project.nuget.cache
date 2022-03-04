@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4zZn/sB2up5ilt1C8pHRyfxbXLga7R+RreV0cbEIVYKh5w7bfEYja06GhhWi8Hb4mWmLMXVwC0mrDEqxfO9nVg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shlomi_e\\dotnet-template\\DT.Web\\DT.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shlomi_e\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512"
+  ],
+  "logs": []
+}
