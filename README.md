@@ -4,7 +4,7 @@ This is a dotnet app template with separation between the messages arrived from 
 * **Web** - represent the presentation tier, contains the landing page and web apps navigations: "Home", "Privacy" and "Weather Forecast".
   * **Pages** - contains the UI pages.
 * **Api** - responsible for incoming HTTP messages.
-  * **Controllers** - contains the RESTFul API's.
+  * **Controllers** - contains classes that handle the RESTFul API's.
 * **Services** - represent the transformation tier where incoming messages represented by ViewModels transform to Entities and vice versa.
 * **Data** - contains the DB context and repository.
 * **Domain** - contains the "domain" app, which is the abstraction of the app.
