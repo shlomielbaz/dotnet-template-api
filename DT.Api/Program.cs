@@ -5,17 +5,14 @@ using DT.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
 builder.Services.AddCors();
 
 // DI registeration
 builder.Services.AddScoped<IWeatherForecastService, WeatherForecastService>();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-
 
 var app = builder.Build();
 
@@ -27,7 +24,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseAuthorization();
-
 app.MapControllers();
 
 // Shows UseCors with CorsPolicyBuilder.
@@ -38,5 +34,4 @@ app.UseCors(builder =>
     .AllowAnyMethod()
     .AllowAnyHeader();
 });
-
 app.Run();
