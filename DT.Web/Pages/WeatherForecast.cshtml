@@ -6,7 +6,10 @@
 
 <h1>@ViewData["Title"]</h1>
 
-<a class="btn btn-primary" asp-area="" asp-page="/WeatherForecastForm">Add</a>
+<div class="d-flex flex-row-reverse">
+    <a class="btn btn-primary" asp-area="" asp-page="/WeatherForecastForm">Add</a>
+</div>
+
 
 <table class="table" id="main-table">
     <thead>
@@ -19,8 +22,6 @@
         </tr>
     </thead>
 </table>
-
-
 
 <script>
     fetch('http://localhost:5000/api/WeatherForecast')
