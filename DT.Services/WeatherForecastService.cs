@@ -45,10 +45,5 @@ namespace DT.Services
         {
             throw new NotImplementedException();
         }
-
-        IEnumerable<WeatherForecast> IService<WeatherForecast>.Get()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
