@@ -1,4 +1,4 @@
-# Separate your app with logical tires
+# Split your app into a logical tires
 This is a dotnet app template with separation between the messages arrived from outside into application logic processing.
 
 ### Application Folder Structure
@@ -17,3 +17,17 @@ This is a dotnet app template with separation between the messages arrived from 
 
 ### Application Diagram
 ![Application Diagram](/app-diagram.png)
+
+### Running The Project
+The solution contains two runnable project: **DT.Api** and **DT.Web**, in order to execute it through Visual Stuio you need to set multiple startup projects, you need to right click on the solution name, click on "Set Startup Projects", and then:
+![set multiple startup projects](/set-multiple-startup-projects.png)
+
+in order to execute it through CLIs (PowerShell), inside folder **DT.Api** and **DT.Web**, run **dotnet run**, e.g.:
+
+```
+dotnet-template-api\DT.Api> dotnet run
+```
+
+```
+dotnet-template-api\DT.Web> dotnet run
+```
