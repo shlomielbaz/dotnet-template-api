@@ -3,7 +3,7 @@ using DT.Domain.General;
 
 namespace DT.Domain.Interfaces
 {
-    public interface IService<T> where T : IEntity
+    public interface IService<T>
     {
         public IEnumerable<T> Get();
         public T Get(Guid id);

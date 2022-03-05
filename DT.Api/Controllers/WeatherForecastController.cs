@@ -21,13 +21,16 @@ namespace DT.Api.Controllers
         [HttpGet] // (Name = "GetWeatherForecast")
         public IEnumerable<WeatherForecastViewModel> Get()
         {
-            return _service.Get().Select(item => new WeatherForecastViewModel()
-            {
-                Date = item.Date.ToString("dd/MM/yyyy HH:mm:ss"),
-                TemperatureC = item.TemperatureC,
-                Summary = item.Summary,
-                TemperatureF = item.TemperatureF
+            return _service.Get();
+        }
 
+        [HttpPost]
+        public void Post(AddWeatherForecastViewModel model)
+        {
+            _service.Add(new AddWeatherForecastViewModel()
+            {
+                TemperatureC = model.TemperatureC,
+                Summary = model.Summary
             });
         }
     }

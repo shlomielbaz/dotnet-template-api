@@ -35,6 +35,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlckZvcmVjYXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/shlomi_e/source/repos/shlomisderot/dotnet-template-api/DT.Web/Pages/WeatherForecastForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlckZvcmVjYXN0Rm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/shlomi_e/source/repos/shlomisderot/dotnet-template-api/DT.Web/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
