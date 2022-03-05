@@ -1,4 +1,4 @@
-# Separate your app with logical tires
+# Split your app into a logical tires
 This is a dotnet app template with separation between the messages arrived from outside into application logic processing.
 
 ### Application Folder Structure
