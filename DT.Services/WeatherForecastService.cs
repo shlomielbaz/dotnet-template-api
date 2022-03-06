@@ -1,5 +1,4 @@
-﻿using DT.Data;
-using DT.Domain.Entities;
+﻿using DT.Domain.Entities;
 using DT.Domain.Interfaces;
 using DT.Domain.Models;
 
@@ -8,13 +7,11 @@ namespace DT.Services
     public class WeatherForecastService : IWeatherForecastService
     {
         private static readonly string[] Summaries = new[] { "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching" };
-        private readonly IRepository<DataContext> _db;
+       
         private static List<WeatherForecast> _store = new List<WeatherForecast>();
 
-        public WeatherForecastService(IRepository<DataContext> db)
+        public WeatherForecastService()
         {
-            _db = db;
-
             if (_store.Count == 0)
             {
                 _store.AddRange(Enumerable.Range(1, 5)

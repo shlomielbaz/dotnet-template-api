@@ -1,4 +1,3 @@
-using DT.Data;
 using DT.Domain.Interfaces;
 using DT.Services;
 
@@ -12,7 +11,6 @@ builder.Services.AddCors();
 
 // DI registeration
 builder.Services.AddScoped<IWeatherForecastService, WeatherForecastService>();
-builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
 var app = builder.Build();
 
